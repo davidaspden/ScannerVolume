@@ -1,15 +1,27 @@
-
 body {
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
+  background: #f8f8f8;
+}
+
+.page-title {
+  font-family: 'Press Start 2P', cursive, monospace;
+  text-align: center;
+  font-size: 2rem;
+  margin: 32px 0 24px 0;
+  color: #222;
+  letter-spacing: 2px;
 }
 
 #volumes {
  display: flex;
  flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 24px 0;
 }
 
 svg {
