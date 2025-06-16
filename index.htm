@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scanner Volume</title>
+  <link rel="stylesheet" href="css/main.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jsbarcode/3.11.6/JsBarcode.all.min.js"></script>
+  <script src="https://datalog.github.io/demo/datamatrix-svg/datamatrix.min.js"></script>
+</head>
+<body>
+<div id="volumes">
+  <h3>Volume</h3>
+  <svg id="BEPLVL1" onClick="showSVG()"></svg>
+  
+  <svg id="BEPLVL2"></svg>
+  <svg id="BEPLVL3"></svg>
+  <svg id="BEPLVL0"></svg>
+  <textarea id="svgCode"></textarea>
+  <textarea id="svgCode2"></textarea>
+  <textarea id="svgCode3"></textarea>
+  <textarea id="svgCode4"></textarea>
+</div>
+<div id="good">
+  <h3>Good Read Delay</h3>
+  <svg id="grd"></svg>
+</div>
+<div id="numbers">
+  <h3>Numbers</h3>
+  <svg id="bc15"></svg>
+  <svg id="bc20"></svg>
+  <svg id="bc25"></svg>
+</div>
+<div id="advanced">
+  <h3>Advanced Numbers</h3>
+  <div id="1361"></div>
+</div>
+<script src="js/main.js"></script>
+</body>
+</html>

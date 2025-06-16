@@ -1,0 +1,30 @@
+
+body {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+#volumes {
+ display: flex;
+ flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+svg {
+  margin: 30px;
+  min-height: 50px;
+  flex-basis: 20%;
+}
+
+#volumes textarea {
+  outline-color: blue;
+}
+h3 {
+  padding-left: 30px;
+  box-sizing: border-box;
+  border-bottom: 1px solid black;
+  display: block;
+  width: 100%;
+}
