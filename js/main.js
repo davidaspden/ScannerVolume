@@ -20,8 +20,7 @@ var svgNode = DATAMatrix({
 document.getElementById("1361").appendChild(svgNode);
 
 function showSVG(){
-  document.getElementById("svgCode").value= document.getElementById(event.target.id);
-  console.log(event.target)
+  // Show the SVG element Code
 }
 
 
